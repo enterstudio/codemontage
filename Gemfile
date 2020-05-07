@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 
 # Admin Tools
-gem 'activeadmin'
+gem 'activeadmin', '>= 0.6.0'
 gem 'meta_search',    '>= 1.1.0.pre'
 
 # Baseline Infrastructure
-gem 'rails', '3.2.19'
+gem 'rails', '4.0.0'
 gem 'jquery-rails'
 gem 'pg'
 gem 'psych', '~> 2.0.0'
