@@ -17,8 +17,8 @@ gem 'newrelic_rpm', '~> 3.9.0.229'
 # Users & Authentication
 gem 'bcrypt-ruby', require: 'bcrypt'
 gem 'devise', '~> 3.3.0'
-gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-github', '>= 2.0.0'
 gem 'simple_form'
 
 # Data & Features
