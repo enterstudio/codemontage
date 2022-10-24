@@ -3,7 +3,7 @@ ruby '2.1.5'
 
 # Admin Tools
 gem 'activeadmin'
-gem 'meta_search',    '>= 1.1.0.pre'
+gem 'meta_search', '>= 1.1.3'
 
 # Baseline Infrastructure
 gem 'rails', '3.2.19'
@@ -55,8 +55,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 3.2.6'
+  gem 'coffee-rails', '~> 3.2.2'
 
   # Foundation front-end framework
   gem 'compass-rails'
