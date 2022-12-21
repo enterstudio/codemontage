@@ -6,7 +6,7 @@ gem 'activeadmin'
 gem 'meta_search',    '>= 1.1.0.pre'
 
 # Baseline Infrastructure
-gem 'rails', '3.2.19'
+gem 'rails', '4.0.0'
 gem 'jquery-rails'
 gem 'pg'
 gem 'psych', '~> 2.0.0'
@@ -19,7 +19,7 @@ gem 'bcrypt-ruby', require: 'bcrypt'
 gem 'devise', '~> 3.3.0'
 gem 'omniauth'
 gem 'omniauth-github'
-gem 'simple_form'
+gem 'simple_form', '>= 3.0.0'
 
 # Data & Features
 gem 'acts-as-taggable-on', '~> 3.4.2'
@@ -30,7 +30,7 @@ gem 'paperclip', '~> 3.0'
 gem 'aws-sdk'
 
 gem 'client_side_validations'
-gem 'client_side_validations-simple_form'
+gem 'client_side_validations-simple_form', '>= 3.2.0'
 
 # Test Suite
 group :development, :test do
@@ -55,8 +55,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.0'
 
   # Foundation front-end framework
   gem 'compass-rails'
