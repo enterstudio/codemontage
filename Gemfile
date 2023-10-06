@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 
 # Admin Tools
-gem 'activeadmin'
+gem 'activeadmin', '>= 1.0.0'
 gem 'meta_search',    '>= 1.1.0.pre'
 
 # Baseline Infrastructure
-gem 'rails', '3.2.19'
-gem 'jquery-rails'
+gem 'rails', '7.1.0'
+gem 'jquery-rails', '>= 4.0.1'
 gem 'pg'
 gem 'psych', '~> 2.0.0'
 
@@ -16,27 +16,27 @@ gem 'newrelic_rpm', '~> 3.9.0.229'
 
 # Users & Authentication
 gem 'bcrypt-ruby', require: 'bcrypt'
-gem 'devise', '~> 3.3.0'
+gem 'devise', '~> 4.7.0'
 gem 'omniauth'
 gem 'omniauth-github'
-gem 'simple_form'
+gem 'simple_form', '>= 4.0.0'
 
 # Data & Features
 gem 'acts-as-taggable-on', '~> 3.4.2'
-gem 'friendly_id', '~> 4.0.10'
+gem 'friendly_id', '~> 5.0.0'
 gem 'geocoder'
 gem 'octokit', '~> 3.5.2'
 gem 'paperclip', '~> 3.0'
 gem 'aws-sdk'
 
 gem 'client_side_validations'
-gem 'client_side_validations-simple_form'
+gem 'client_side_validations-simple_form', '>= 6.6.0'
 
 # Test Suite
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 2.13.1'
   gem 'capybara'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.6.0'
   gem 'dotenv-rails'
   gem 'vcr'
   gem 'fakeweb'
@@ -49,14 +49,14 @@ end
 
 # Development helpers
 group :development do
-  gem 'quiet_assets'
+  gem 'quiet_assets', '>= 1.0.3'
 end
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 5.0.8'
+  gem 'coffee-rails', '~> 4.2.2'
 
   # Foundation front-end framework
   gem 'compass-rails'
