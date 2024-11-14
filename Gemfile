@@ -22,7 +22,7 @@ gem 'omniauth-github'
 gem 'simple_form'
 
 # Data & Features
-gem 'acts-as-taggable-on', '~> 3.4.2'
+gem 'acts-as-taggable-on', '~> 12.0.0'
 gem 'friendly_id', '~> 4.0.10'
 gem 'geocoder'
 gem 'octokit', '~> 3.5.2'
