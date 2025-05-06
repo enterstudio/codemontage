@@ -34,7 +34,7 @@ gem 'client_side_validations-simple_form'
 
 # Test Suite
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'dotenv-rails'
