@@ -27,7 +27,7 @@ gem 'friendly_id', '~> 4.0.10'
 gem 'geocoder'
 gem 'octokit', '~> 3.5.2'
 gem 'paperclip', '~> 3.0'
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 1.52.0'
 
 gem 'client_side_validations'
 gem 'client_side_validations-simple_form'
