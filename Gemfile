@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 ruby '2.1.5'
 
 # Admin Tools
-gem 'activeadmin'
+gem 'activeadmin', '>= 1.0.0'
 gem 'meta_search',    '>= 1.1.0.pre'
 
 # Baseline Infrastructure
-gem 'rails', '3.2.19'
+gem 'rails', '7.1.5.2'
 gem 'jquery-rails'
 gem 'pg'
 gem 'psych', '~> 2.0.0'
@@ -22,8 +22,8 @@ gem 'omniauth-github'
 gem 'simple_form'
 
 # Data & Features
-gem 'acts-as-taggable-on', '~> 3.4.2'
-gem 'friendly_id', '~> 4.0.10'
+gem 'acts-as-taggable-on', '~> 4.0.0'
+gem 'friendly_id', '~> 5.0.3'
 gem 'geocoder'
 gem 'octokit', '~> 3.5.2'
 gem 'paperclip', '~> 3.0'
