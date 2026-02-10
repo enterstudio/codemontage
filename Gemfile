@@ -18,14 +18,14 @@ gem 'newrelic_rpm', '~> 3.9.0.229'
 gem 'bcrypt-ruby', require: 'bcrypt'
 gem 'devise', '~> 3.3.0'
 gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth-github', '>= 1.1.1'
 gem 'simple_form'
 
 # Data & Features
 gem 'acts-as-taggable-on', '~> 3.4.2'
 gem 'friendly_id', '~> 4.0.10'
 gem 'geocoder'
-gem 'octokit', '~> 3.5.2'
+gem 'octokit', '~> 4.23.0'
 gem 'paperclip', '~> 3.0'
 gem 'aws-sdk'
 
